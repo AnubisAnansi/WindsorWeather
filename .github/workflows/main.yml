@@ -2,17 +2,22 @@ name: Windsor Weather Agent
 
 on:
   schedule:
-    # Runs at 8:00 AM UK time (UTC+1 BST = 07:00 UTC, UTC+0 GMT = 08:00 UTC)
-    # We use 07:00 UTC to account for BST (British Summer Time)
+    # 8:00 AM BST (UTC+1) = 07:00 UTC (summer)
+    # 8:00 AM GMT (UTC+0) = 08:00 UTC (winter)
+    # We schedule at 07:00 UTC to target 8am BST in summer
+    # In winter (GMT) this will run at 7am — acceptable tradeoff
     - cron: '0 7 * * *'
-  workflow_dispatch: # Allows you to run manually from GitHub UI
+  workflow_dispatch: # Allows manual run from GitHub Actions tab
 
 jobs:
   weather:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Needed to commit history.json back to repo
+      contents: write
+
+    env:
+      TZ: Europe/London  # Sets timezone for all steps
 
     steps:
       - name: Checkout repository
@@ -29,6 +34,7 @@ jobs:
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+          TZ: Europe/London
         run: python weather_agent.py
 
       - name: Save updated history to repo
