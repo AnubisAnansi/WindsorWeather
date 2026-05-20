@@ -30,60 +30,75 @@
         "temp_min": 12.2,
         "temp_avg": 16.0,
         "weathercode": 51
+      },
+      "actual": {
+        "temp_max": 18.6,
+        "temp_min": 12.2,
+        "temp_avg": 15.4,
+        "weathercode": 3
       }
     },
     "2026-05-21": {
       "forecast": {
-        "made_on": "2026-05-19",
-        "temp_max": 22.4,
-        "temp_min": 10.3,
-        "temp_avg": 16.4,
+        "made_on": "2026-05-20",
+        "temp_max": 22.9,
+        "temp_min": 11.2,
+        "temp_avg": 17.0,
         "weathercode": 3
       }
     },
     "2026-05-22": {
       "forecast": {
-        "made_on": "2026-05-19",
-        "temp_max": 26.3,
-        "temp_min": 14.9,
-        "temp_avg": 20.6,
+        "made_on": "2026-05-20",
+        "temp_max": 26.7,
+        "temp_min": 12.4,
+        "temp_avg": 19.6,
         "weathercode": 3
       }
     },
     "2026-05-23": {
       "forecast": {
-        "made_on": "2026-05-19",
-        "temp_max": 27.3,
-        "temp_min": 19.6,
-        "temp_avg": 23.5,
+        "made_on": "2026-05-20",
+        "temp_max": 26.0,
+        "temp_min": 18.5,
+        "temp_avg": 22.2,
         "weathercode": 3
       }
     },
     "2026-05-24": {
       "forecast": {
-        "made_on": "2026-05-19",
-        "temp_max": 28.0,
-        "temp_min": 17.8,
-        "temp_avg": 22.9,
+        "made_on": "2026-05-20",
+        "temp_max": 30.7,
+        "temp_min": 19.0,
+        "temp_avg": 24.9,
         "weathercode": 0
       }
     },
     "2026-05-25": {
       "forecast": {
-        "made_on": "2026-05-19",
-        "temp_max": 30.0,
-        "temp_min": 19.6,
-        "temp_avg": 24.8,
+        "made_on": "2026-05-20",
+        "temp_max": 28.2,
+        "temp_min": 19.4,
+        "temp_avg": 23.8,
         "weathercode": 0
       }
     },
     "2026-05-26": {
       "forecast": {
-        "made_on": "2026-05-19",
-        "temp_max": 26.6,
-        "temp_min": 13.6,
-        "temp_avg": 20.1,
-        "weathercode": 1
+        "made_on": "2026-05-20",
+        "temp_max": 21.6,
+        "temp_min": 12.8,
+        "temp_avg": 17.2,
+        "weathercode": 0
+      }
+    },
+    "2026-05-27": {
+      "forecast": {
+        "made_on": "2026-05-20",
+        "temp_max": 24.5,
+        "temp_min": 15.1,
+        "temp_avg": 19.8,
+        "weathercode": 0
       }
     }
   },
