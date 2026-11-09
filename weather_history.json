@@ -2619,60 +2619,75 @@
         "temp_min": 1.4,
         "temp_avg": 5.8,
         "weathercode": 45
+      },
+      "actual": {
+        "temp_max": 9.1,
+        "temp_min": 2.5,
+        "temp_avg": 5.8,
+        "weathercode": 45
       }
     },
     "2026-11-10": {
       "forecast": {
-        "made_on": "2026-11-08",
-        "temp_max": 10.1,
-        "temp_min": 4.5,
-        "temp_avg": 7.3,
-        "weathercode": 53
+        "made_on": "2026-11-09",
+        "temp_max": 9.8,
+        "temp_min": 3.5,
+        "temp_avg": 6.7,
+        "weathercode": 61
       }
     },
     "2026-11-11": {
       "forecast": {
-        "made_on": "2026-11-08",
-        "temp_max": 9.8,
-        "temp_min": 8.2,
-        "temp_avg": 9.0,
+        "made_on": "2026-11-09",
+        "temp_max": 9.3,
+        "temp_min": 7.8,
+        "temp_avg": 8.6,
         "weathercode": 61
       }
     },
     "2026-11-12": {
       "forecast": {
-        "made_on": "2026-11-08",
-        "temp_max": 10.0,
-        "temp_min": 6.5,
-        "temp_avg": 8.2,
+        "made_on": "2026-11-09",
+        "temp_max": 8.0,
+        "temp_min": 2.6,
+        "temp_avg": 5.3,
         "weathercode": 3
       }
     },
     "2026-11-13": {
       "forecast": {
-        "made_on": "2026-11-08",
-        "temp_max": 8.7,
-        "temp_min": 6.1,
-        "temp_avg": 7.4,
-        "weathercode": 3
+        "made_on": "2026-11-09",
+        "temp_max": 6.6,
+        "temp_min": 1.3,
+        "temp_avg": 3.9,
+        "weathercode": 0
       }
     },
     "2026-11-14": {
       "forecast": {
-        "made_on": "2026-11-08",
-        "temp_max": 9.4,
-        "temp_min": 3.3,
-        "temp_avg": 6.3,
+        "made_on": "2026-11-09",
+        "temp_max": 6.4,
+        "temp_min": -0.6,
+        "temp_avg": 2.9,
         "weathercode": 3
       }
     },
     "2026-11-15": {
       "forecast": {
-        "made_on": "2026-11-08",
-        "temp_max": 11.4,
-        "temp_min": 1.0,
-        "temp_avg": 6.2,
-        "weathercode": 51
+        "made_on": "2026-11-09",
+        "temp_max": 12.6,
+        "temp_min": 4.5,
+        "temp_avg": 8.6,
+        "weathercode": 3
+      }
+    },
+    "2026-11-16": {
+      "forecast": {
+        "made_on": "2026-11-09",
+        "temp_max": 11.2,
+        "temp_min": 7.2,
+        "temp_avg": 9.2,
+        "weathercode": 53
       }
     }
   },
